@@ -1,25 +1,13 @@
-import React, { Component } from 'react'
-import PropTypes from 'prop-types'
-import { connect } from 'react-redux'
+import React, { Component } from 'react';
+import Layout from './layout'
+import 'antd/dist/antd.css';
 
 class App extends Component {
-    static propTypes = {
-        prop: PropTypes
-    }
-
 
     render() {
         return (
-            <div>
-                
-            </div>
+            <Layout />
         )
     }
 }
-
-const mapStateToProps = (state) => ({
-
-})
-
-
-export default connect(mapStateToProps)(App)
+export default App
